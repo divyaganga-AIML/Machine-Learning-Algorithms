@@ -1,6 +1,8 @@
 # Machine-Learning-Algorithms
 This repo is created to add the ML models
 
+Model 1: Linear Regression
+
 **Linear Regression from Scratch**
 
 A simple implementation of Linear Regression from scratch using NumPy, and comparison with sklearn.
