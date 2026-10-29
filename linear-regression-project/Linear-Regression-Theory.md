@@ -40,7 +40,7 @@ yᵢ−y^ᵢ
 yᵢ is the actual observed value
 ​y^ᵢ is the predicted value from the line for that 
 
-## There are 2 types in Linear Regression Method.
+## There are 2 types in Linear Regression Method
 *  Simple Linear Regression
 *  Multiple Linear Regression
 
