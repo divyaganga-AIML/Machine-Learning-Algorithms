@@ -67,7 +67,18 @@ often using the Least Squares Method, which minimizes the sum of squared residua
 
 * ***Decision Making:*** Supporting business or financial decisions by predicting continuous outcomes
 
+## Lease Squares/Normal Equation
+
+The Ordinary Least Squares (OLS) method minimizes the total squared difference between observed values and model predictions:
+
+This principle generalizes to multiple regression using matrix notation
+
+<img width="352" height="213" alt="image" src="https://github.com/user-attachments/assets/883f595e-d8c7-4b9a-8722-b87874729583" />
+
+The Normal Equation leverages the power of matrix algebra to efficiently handle multiple independent variables in linear regression. By organizing the data into matrices, the equation helps in linear transformations and calculations that simplify the process of finding the best-fitting coefficients.
+
 **Implementation in Python**
+
 Python libraries like scikit-learn and SciPy provide built-in methods to implement linear regression. 
 
 **The workflow typically involves:**
