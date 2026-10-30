@@ -55,7 +55,38 @@ y = b + w₁x₁ + w₂x₂ + ... + wₙxₙ
 where each wᵢ represents the weight of the corresponding feature 
 
 The model is trained by minimizing the error between predicted and actual values, 
-often using the Least Squares Method, which minimizes the sum of squared residuals (differences between actual and predicted values), 
+often using the Least Squares Method, which minimizes the sum of squared residuals (differences between actual and predicted values)
+
+**The most important metrics for linear regression are MAE, MSE, RMSE, R²**
+
+each capturing different aspects of model accuracy and fit.
+
+### Core Error Metrics:
+
+* **Mean Absolute Error (MAE)** — average of absolute differences between predicted and actual values.
+Easy to interpret; less sensitive to outliers.
+Good when you want a robust, intuitive measure of average error.
+
+* **Mean Squared Error (MSE)** — average of squared errors.
+Penalizes large errors more heavily.
+Useful when large deviations matter.
+
+* **Root Mean Squared Error (RMSE)** — square root of MSE.
+Same units as the target variable, making interpretation easier.
+Often the default metric for regression performance.
+
+* **R² (Coefficient of Determination)** —
+Represents the proportion of variance in the target explained by the model.
+Ranges from 0 to 1 (higher is better).
+Can be misleading if you add many predictors.
+
+> **_NOTE:_** High R² does not always mean good generalization.(Overfitting)
+
+***How to Choose the Right Metric:***
+
+* Use RMSE when large errors are especially costly.
+* Use MAE when you want robustness to outliers.
+* Use R² / Adjusted R² to understand explanatory power.
 
 ### Applications
 
