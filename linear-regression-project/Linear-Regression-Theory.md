@@ -22,24 +22,6 @@ y = mx + c
 
 where m is the slope, c is the intercept, x is the input feature, and y is the predicted output 
 
-***The working of linear regression in machine learning can be broken down into many steps as follows*** −
-
-**Hypothesis** − We assume that there is a linear relation between input and output.
-
-**Cost Function** − Define a loss or cost function. The cost function quantifies the model's prediction error. 
-The cost function takes the model's predicted values and actual values and returns a single scaler value that represents the cost of the model's prediction.
-
-**Optimization** − Optimize (minimize) the model's cost function by updating the model's parameters.
-
-Minimizing the Error using the Least Squares Method:
-
-To determine the best-fit line, linear regression uses the Least Squares Method, which minimizes the difference between actual and predicted values. These differences are called residuals. These differences are called residuals.
-
-The formula for residuals is:Residual = 
-yᵢ−y^ᵢ
-yᵢ is the actual observed value
-​y^ᵢ is the predicted value from the line for that 
-
 ## There are 2 types in Linear Regression Method
 *  Simple Linear Regression
 *  Multiple Linear Regression
@@ -50,7 +32,7 @@ yᵢ is the actual observed value
  assigning coefficients to each feature to reflect its impact. 
 
 the model extends to multiple features:
-y = b + w₁x₁ + w₂x₂ + ... + wₙxₙ
+y = c + w₁x₁ + w₂x₂ + ... + wₙxₙ
 
 where each wᵢ represents the weight of the corresponding feature 
 
@@ -98,6 +80,24 @@ Can be misleading if you add many predictors.
 
 * ***Decision Making:*** Supporting business or financial decisions by predicting continuous outcomes
 
+ ## ***The working of linear regression in machine learning can be broken down into many steps as follows*** −
+
+**Hypothesis** − We assume that there is a linear relation between input and output.
+
+**Cost Function** − Define a loss or cost function. The cost function quantifies the model's prediction error. 
+The cost function takes the model's predicted values and actual values and returns a single scaler value that represents the cost of the model's prediction.
+
+**Optimization** − Optimize (minimize) the model's cost function by updating the model's parameters.
+
+Minimizing the Error using the Least Squares Method:
+
+To determine the best-fit line, linear regression uses the Least Squares Method, which minimizes the difference between actual and predicted values. These differences are called residuals. These differences are called residuals.
+
+The formula for residuals is:Residual = 
+yᵢ−y^ᵢ
+yᵢ is the actual observed value
+​y^ᵢ is the predicted value from the line for that 
+
 ## Lease Squares/Normal Equation
 
 The Ordinary Least Squares (OLS) method minimizes the total squared difference between observed values and model predictions:
@@ -108,9 +108,9 @@ This principle generalizes to multiple regression using matrix notation
 
 The Normal Equation leverages the power of matrix algebra to efficiently handle multiple independent variables in linear regression. By organizing the data into matrices, the equation helps in linear transformations and calculations that simplify the process of finding the best-fitting coefficients.
 
-**Implementation in Python**
+## **Implementation in Python**
 
-Python libraries like scikit-learn and SciPy provide built-in methods to implement linear regression. 
+*Python libraries like scikit-learn and SciPy provide built-in methods to implement linear regression.* 
 
 **The workflow typically involves:**
 
