@@ -18,9 +18,9 @@ The goal is to minimize the difference between the actual data points and the pr
 
 the best fit line is represented by the equation:
 
-y = mx + b
+y = mx + c
 
-where m is the slope, b is the intercept, x is the input feature, and y is the predicted output 
+where m is the slope, c is the intercept, x is the input feature, and y is the predicted output 
 
 ***The working of linear regression in machine learning can be broken down into many steps as follows*** −
 
