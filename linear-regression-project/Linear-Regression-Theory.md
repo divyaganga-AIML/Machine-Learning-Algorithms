@@ -126,3 +126,5 @@ The Normal Equation leverages the power of matrix algebra to efficiently handle 
 
 Simple Linear Regression: Simple_Linear_Regression.ipynb
 
+Multiple Linear Regression with simple example: Multiple_Linear_Regression_simple_example.ipynb
+
