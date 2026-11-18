@@ -44,3 +44,56 @@ Class 0 when p<0.5
 • ***Disease prediction:*** Predicts illness likelihood to help healthcare providers set up preventive care.
 
 • ***Churn prediction:*** Identifies employees or clients likely to leave, prompting retention strategies.
+
+## Core Evaluation Metrics
+
+***Confusion Matrix:***
+A confusion matrix summarizes correct and incorrect predictions:
+
+True Positive (TP) — correctly predicted positive
+
+True Negative (TN) — correctly predicted negative
+
+False Positive (FP) — predicted positive but actually negative
+
+False Negative (FN) — predicted negative but actually positive
+
+<img width="300" height="170" alt="image" src="https://github.com/user-attachments/assets/6b35d89a-cbd7-4b4a-a00c-e9bfaa3e354d" />
+
+This matrix is the foundation for most other metrics. 
+
+***Accuracy:***
+Measures overall correctness
+
+Accuracy = (TP + TN) / Total predictions
+
+Best when classes are balanced. 
+
+***Precision:***
+Precision = TP / (TP + FP)
+
+High precision means fewer false alarms—important in spam detection or fraud detection. 
+
+***Recall:*** Recall = TP / (TP + FN)
+
+High recall means fewer missed positives—critical in medical diagnosis. 
+
+***F1‑Score:*** Harmonic mean of precision and recall.
+
+Useful when you need balance between avoiding false positives and false negatives. 
+
+F1=2× (precision+recall)/(precision×recall)
+
+​
+ ***ROC Curve & AUC:***
+
+ROC curve plots True Positive Rate vs. False Positive Rate across thresholds.
+
+AUC measures how well the model separates classes; higher is better.
+
+Ideal for comparing models or evaluating performance across thresholds.
+
+<img width="286" height="200" alt="image" src="https://github.com/user-attachments/assets/2a23c5f0-b8ab-4b3a-a7ed-6a3d800e5b22" />
+<img width="280" height="200" alt="image" src="https://github.com/user-attachments/assets/f520d5bc-3984-4614-a1c2-60548bbae484" />
+
+
