@@ -12,9 +12,21 @@ Most commonly binary outcomes such as ***yes/no*** or ***0/1*** by applying the 
 
 • **Sigmoid Function:** It passes that linear output through the sigmoid function (or logistic function), which squashes any real number into an S-shaped curve between 0 and 1.
 
+<img width="300" height="128" alt="image" src="https://github.com/user-attachments/assets/e60251a6-1639-4af0-890f-a120fce7379e" />
+
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/22789a52-483f-4e5d-a223-c2062943ec22" />
 
 • **Probability & Decision Boundary:** The resulting number represents a probability. A threshold (typically 0.5) is applied to assign the input to a specific class (e.g., values ≥ 0.5 become Class 1, and < 0.5 become Class 0).
+
+The decision boundary is the set of points where the model switches its predicted class.
+
+Logistic regression predicts:
+
+Class 1 when p≥0.5
+
+Class 0 when p<0.5
+
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/8871f68b-0bba-4aca-828c-ea4ad5acc2ad" />
 
 • **Maximum Likelihood Estimation (MLE):** logistic regression estimates its parameters using MLE (or gradient descent) to maximize the likelihood of observing the given data.
 
