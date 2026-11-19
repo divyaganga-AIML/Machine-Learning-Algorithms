@@ -50,15 +50,15 @@ Class 0 when p<0.5
 ***Confusion Matrix:***
 A confusion matrix summarizes correct and incorrect predictions:
 
-True Positive (TP) — correctly predicted positive
-
 True Negative (TN) — correctly predicted negative
 
 False Positive (FP) — predicted positive but actually negative
 
 False Negative (FN) — predicted negative but actually positive
 
-<img width="300" height="170" alt="image" src="https://github.com/user-attachments/assets/6b35d89a-cbd7-4b4a-a00c-e9bfaa3e354d" />
+True Positive (TP) — correctly predicted positive
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/bc6621aa-c3df-4d8c-a642-406c91968860" />
 
 This matrix is the foundation for most other metrics. 
 
@@ -95,5 +95,9 @@ Ideal for comparing models or evaluating performance across thresholds.
 
 <img width="286" height="200" alt="image" src="https://github.com/user-attachments/assets/2a23c5f0-b8ab-4b3a-a7ed-6a3d800e5b22" />
 <img width="280" height="200" alt="image" src="https://github.com/user-attachments/assets/f520d5bc-3984-4614-a1c2-60548bbae484" />
+
+
+**Practical Implementation of Logistic Regression using Bank data:**
+Logistic_regression_example.ipynb
 
 
