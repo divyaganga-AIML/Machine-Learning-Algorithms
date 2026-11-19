@@ -97,6 +97,8 @@ Ideal for comparing models or evaluating performance across thresholds.
 <img width="280" height="200" alt="image" src="https://github.com/user-attachments/assets/f520d5bc-3984-4614-a1c2-60548bbae484" />
 
 
+
+
 **Practical Implementation of Logistic Regression using Bank data:**
 Logistic_regression_example.ipynb
 
